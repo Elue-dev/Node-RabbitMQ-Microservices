@@ -1,0 +1,20 @@
+{
+  "name": "product-service",
+  "version": "1.0.0",
+  "description": "Produce Service of Ecommerce App",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Wisdom Elue",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2"
+  }
+}

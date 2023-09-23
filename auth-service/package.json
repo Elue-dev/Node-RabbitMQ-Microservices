@@ -1,0 +1,19 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "Auth Service For Ecommerce",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Wisdom Elue",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2"
+  }
+}
